@@ -1,0 +1,43 @@
+
+body{
+	/* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+margin: 0;
+/* padding: 0; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+align-items: center;
+}
+header{
+	background-color: black;
+	color: white;
+	/* padding: px; */
+	margin: 0;
+width: 100%;
+}
+h1,h2{
+	text-align: center;
+	font-size: 30px;
+	padding: 8px;
+	margin: 0;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	background: #BBD2C5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+	/* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+border-radius: 5px;
+}
+form>input{
+	width: 350px;
+}
+
+#name{
+	/* color: white; */
+}
