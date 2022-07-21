@@ -40,16 +40,16 @@ form {
 	/* background: linear-gradient(to right, #292E49, #536976, #BBD2C5); */
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	/* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
-	
+
 	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-	
+
 	background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
-	
+
 
 	border-radius: 5px;
 }
 
-label  {
+label {
 	font-size: 20px;
 	font-weight: 600;
 	margin-top: 30px;
@@ -63,12 +63,14 @@ form>input {
 	border-radius: 50px;
 	border: none;
 }
-textarea{
+
+textarea {
 	width: 400px;
 	padding: 25px;
 	border-radius: 50px;
 	border: none;
 }
+
 .padding {
 	padding: 30px;
 }
@@ -79,13 +81,15 @@ select {
 	border-radius: 50px;
 	border: none;
 }
-#errorMsg{
+
+#errorMsg {
 	color: red;
 	/* background-color: rgb(161, 161, 161); */
 	padding: 3px;
 	border-radius: 5px;
 }
-.thin{
+
+.thin {
 	font-weight: 200;
 }
 

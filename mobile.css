@@ -1,19 +1,23 @@
-body{
+body {
 	/* background-color: red; */
 }
-form{
+
+form {
 	width: 95%;
 }
-form>input{
+
+form>input {
 	width: 70%;
 }
+
 select {
 	width: 210px;
 	padding: 25px;
 	border-radius: 50px;
 	border: none;
 }
-textarea{
+
+textarea {
 	width: 280px;
 	/* padding: 25px; */
 	/* border-radius: 50px; */
