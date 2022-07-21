@@ -62,6 +62,7 @@ form>input {
 	padding: 25px;
 	border-radius: 50px;
 	border: none;
+	box-shadow: 5px 5px 15px black;
 }
 
 textarea {
@@ -69,6 +70,7 @@ textarea {
 	padding: 25px;
 	border-radius: 50px;
 	border: none;
+	box-shadow: 5px 5px 15px black;
 }
 
 .padding {
@@ -80,6 +82,7 @@ select {
 	padding: 25px;
 	border-radius: 50px;
 	border: none;
+	box-shadow: 5px 5px 15px black;
 }
 
 #errorMsg {
@@ -120,7 +123,9 @@ select {
 	overflow: hidden;
 	border-radius: 12px;
 	transform: translate(-00%, 13%);
-	color: rgb(222, 26, 26);
+	/* color: rgb(222, 26, 26); */
+	box-shadow: 5px 5px 15px black;
+
 }
 
 .mainDiv:nth-child(2) {
