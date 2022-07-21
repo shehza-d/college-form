@@ -30,7 +30,7 @@ h3{
 }
 h3::after{
 	content: "";
-	bottom: 0;
+	bottom: -10px;
 	left: 0;
 	width: 100%;
 	height: 2px;
@@ -183,5 +183,8 @@ select {
 	}
 	#fb,#kb{
 		width: 10px !important;
+	}
+	h3{
+		width: 80%;
 	}
 }
