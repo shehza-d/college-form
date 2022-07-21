@@ -40,8 +40,8 @@
 		<input type="number" id="phoneNumber" max="70" placeholder="Enter your Phone Number" required>
 
 		<label for="dob">Date of Birth</label>
-		<input type="date" id="dob" required>
-
+		<input type="date" id="dob" required  min="1985-01-01" max="2030-12-31"  pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+<!--pattern="\d{4}-\d{2}-\d{2}"-->
 
 		<div class="padding">
 			<label for="fb">Federal Board</label>
