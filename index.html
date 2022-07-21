@@ -8,7 +8,7 @@
 	<title>FG Admission Form</title>
 
 	<link rel="stylesheet" href="./style.css">
-	<link rel="stylesheet" href="./mobile.css">
+	<link rel="stylesheet" href="./mobile.css" media="(max-device-width:450px)">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
 <body>
 	<header>
 		<h1>FG BOYS INTER COLLEGE KARACHI CANTT</h1>
-		<h2>REGISTRATION SLIP FOR ENTRY TEST</h2>
+		<h2>REGISTRATION SLIP</h2>
 	</header>
 
 	<h3>Online Registration Form For Admission</h3>
@@ -65,7 +65,7 @@
 		<input id="form_ssc_marks" type="number" name="ssc_marks" min="1" max="10000"
 			placeholder="Please enter SSC Marks" required>
 
-		<label for="form_ssc_percentage">SSC/Matriculation Percentage *</label>
+		<label for="form_ssc_percentage">SSC/Matriculation Percentage</label>
 		<input id="form_ssc_percentage" type="number" name="ssc_percentage" min="49" max="101"
 			placeholder="Please enter SSC Percentage" required>
 
@@ -100,20 +100,34 @@
 		<label for="form_message">Home Address</label>
 		<textarea id="form_message" name="address" placeholder="Home Address" rows="4" required></textarea>
 
-		<label for="name">Name</label>
+		<!-- <label for="name">Name</label>
 		<input type="text" id="name" placeholder="Enter your name" required>
 
 		<label for="name">Name</label>
-		<input type="text" id="name" placeholder="Enter your name" required>
+		<input type="text" id="name" placeholder="Enter your name" required> -->
 
 		<p id="errorMsg"></p>
 
 		<div class="mainDiv"><button type="submit" class="submit secondBTN">SUBMIT</button></div>
 
-		<p>* These fields are required.</p>
+		<p class="thin">* These fields are required.</p>
 	</form>
 
 	<script src="./script.js"></script>
+
+
+
+
+	<!-- <footer>
+		Made by Okasha and Shehzad batch 2022
+		Okasha Links
+		https://github.com/OkashaTanoli
+		https://www.linkedin.com/in/okasha-aijaz/
+		
+		Shehzad links
+		https://github.com/shehza-d
+		https://instagram.com/shehza.d?utm_medium=copy_link
+	</footer> -->
 </body>
 
 </html>
