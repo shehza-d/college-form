@@ -41,7 +41,7 @@ form {
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	/* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
 
-	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	/* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
 
 	background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
 
